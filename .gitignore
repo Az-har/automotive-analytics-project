@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Data files - Crucial for avoiding large file errors on GitHub
+data/raw/
+data/processed/
+*.csv
+
+# Power BI files (can be very large)
+*.pbix
+
+# Environment variables
+.env
+*.env.*
+
+# OS specific
+.DS_Store
