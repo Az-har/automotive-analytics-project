@@ -1,0 +1,29 @@
+[0m23:23:29.281619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9F2FD41A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9EE8A7390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9F4C1FD90>]}
+
+
+============================== 23:23:29.289697 | b07d9e51-6c23-48a3-a8a9-9cc46957ccba ==============================
+[0m23:23:29.289697 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:23:29.290626 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init dbt_car_analytics', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'empty': 'None', 'quiet': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\azhar\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m23:23:29.466796 [debug] [MainThread]: Starter project path: D:\Learning\Project\automotive-analytics-project\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:23:29.514385 [info ] [MainThread]: 
+Your new dbt project "dbt_car_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:23:29.515350 [info ] [MainThread]: Setting up your profile.
+[0m23:25:06.889264 [info ] [MainThread]: Profile dbt_car_analytics written to C:\Users\azhar\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:25:06.891754 [debug] [MainThread]: Command `dbt init` succeeded at 23:25:06.891548 after 97.73 seconds
+[0m23:25:06.892280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B98571AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B984C68CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B98572E470>]}
+[0m23:25:06.892758 [debug] [MainThread]: Flushing usage events
+[0m23:25:09.010531 [debug] [MainThread]: An error was encountered while trying to flush usage events
