@@ -4,4 +4,4 @@ select
     row_number() over (order by transmission) as transmission_key,
     transmission
 from {{ ref('stg_car_listings') }}
-group by 1, 2 -- Use group by to get distinct values
+group by transmission 
