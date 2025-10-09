@@ -1,0 +1,25 @@
+# models/marts/schema.yml
+
+version: 2
+
+models:
+  - name: fct_listings
+    columns:
+      - name: listing_id
+        tests:
+          - unique
+          - not_null
+
+      # This is a referential integrity test
+      - name: car_key
+        tests:
+          - relationships:
+              to: ref('dim_cars')
+              field: car_key
+
+  - name: dim_cars
+    columns:
+      - name: car_key
+        tests:
+          - unique
+          - not_null

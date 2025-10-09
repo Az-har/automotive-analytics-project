@@ -1,0 +1,11 @@
+# models/staging/schema.yml
+
+version: 2
+
+models:
+  - name: stg_car_listings
+    columns:
+      - name: listing_id
+        tests:
+          - unique
+          - not_null
